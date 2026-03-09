@@ -35,7 +35,7 @@ O projeto utiliza **JSON Server** para simular um backend REST e foi criado com 
 ###  Clonar o repositório
 
 ```bash
-git clone
+git clone https://github.com/anaolr-aula/CriandoJson
 
 ```
 
