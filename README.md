@@ -1,16 +1,79 @@
-# React + Vite
+# 🔐 Sistema de Login e Cadastro (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em **React** que implementa um fluxo básico de **autenticação de usuários**, permitindo **cadastro e login** com persistência de dados em uma API simulada.
 
-Currently, two official plugins are available:
+O projeto utiliza **JSON Server** para simular um backend REST e foi criado com o objetivo de **praticar integração entre front-end e API**, além de explorar conceitos fundamentais do ecossistema React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ Cadastro de novos usuários  
+✔ Validação de campos obrigatórios  
+✔ Login com verificação de credenciais  
+✔ Redirecionamento entre páginas  
+✔ Persistência de usuários em API local  
+✔ Tratamento de erros no formulário  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tecnologias utilizadas
+
+- **React**
+- **Vite**
+- **React Router DOM**
+- **JavaScript (ES6+)**
+- **Fetch API**
+- **JSON Server**
+- **HTML5**
+- **CSS3**
+
+---
+
+# ⚙️ Como executar o projeto
+
+###  Clonar o repositório
+
+```bash
+git clone
+
+```
+
+---
+
+### 2️⃣ Instalar as dependências
+
+```bash
+npm install
+```
+
+---
+
+### 3️⃣ Iniciar a API fake (JSON Server)
+
+O projeto utiliza **JSON Server** para simular um backend com usuários.
+```bash
+
+npm run server
+
+```
+A API ficará disponível em:
+
+
+http://localhost:3020/usuarios
+
+
+---
+
+### 4️⃣ Iniciar a aplicação
+
+Em outro terminal execute:
+
+```bash
+npm run dev
+
+```
+A aplicação será iniciada pelo **Vite**.
+
+---
+
